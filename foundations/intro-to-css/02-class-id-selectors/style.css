@@ -1,0 +1,19 @@
+.pink {
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+    background-color: lightpink;
+}
+
+#emphasis {
+    color: blue;
+    font-size: 36px;
+}
+
+.cooler {
+    font-size: 24px;
+}
+
+#green {
+    background-color: lightgreen;
+    font-weight: bold;
+    font-size: 24px;
+}
