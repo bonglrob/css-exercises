@@ -20,6 +20,11 @@ ul {
   list-style-type: none;
   display: flex;
   padding: 0;
+  gap: 12px;
+}
+
+li {
+  display: flex;
 }
 
 a {
