@@ -22,7 +22,6 @@ body {
 
 .footer {
   background-color: #eeeeee;
-  
 }
 
 .header a,
@@ -46,6 +45,15 @@ body {
   gap: 24px;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  align-self: center;
+  gap: 12px;
+}
+
 img {
   width: 600px;
 }
@@ -55,6 +63,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px 12px;
 }
 
 input {
