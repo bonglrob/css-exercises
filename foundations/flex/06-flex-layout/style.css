@@ -7,6 +7,30 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header a {
+  text-decoration: none;
+  color: #5c5c5c;
+}
+
+.left-links,
+.right-links {
+  list-style: none;
+  display: flex;
+  padding: 8px 32px;
+  gap: 24px;
+}
+
 img {
   width: 600px;
 }
