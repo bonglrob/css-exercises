@@ -10,17 +10,32 @@ body {
 .container {
   display: flex;
   flex-direction: column;
+  height: 100vh;
   justify-content: space-between;
 }
 
-.header {
+.header,
+.footer {
   display: flex;
   justify-content: space-between;
 }
 
-.header a {
+.footer {
+  background-color: #eeeeee;
+  
+}
+
+.header a,
+.footer a {
   text-decoration: none;
+}
+
+.header a {
   color: #5c5c5c;
+}
+
+.footer a {
+  color:#323232
 }
 
 .left-links,
