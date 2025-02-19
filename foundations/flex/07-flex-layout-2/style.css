@@ -6,6 +6,11 @@ body {
   flex-direction: column;
 }
 
+h1 {
+  margin-left: 16px;
+  align-self: center;
+}
+
 .container {
   display: flex;
   flex: 1;
@@ -15,6 +20,7 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+  display: flex;
 }
 
 .footer {
